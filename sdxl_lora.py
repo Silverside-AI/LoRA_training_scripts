@@ -73,7 +73,7 @@ def train_lora():
         "--enable_xformers_memory_efficient_attention",
         "--image_column=image",
         "--caption_column=text",
-        "--train_text_encoder"  es
+        "--train_text_encoder" 
     ]
     
     subprocess.run(training_args)
